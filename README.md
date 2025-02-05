@@ -1,43 +1,38 @@
-# NReal Air's AR Desktop Tool (Windows):
-This allows the user to ineract with their Desktop using the Nreal Air's on Windows
+## 🎯 **NReal Air's AR Desktop Tool (Windows)**
+> _Interact with your Desktop using Nreal Air on Windows._
 
-# Features
-- Create any Desktop and position it as desired
-- Create any open individual window and position it (Even if its behind another window)
-- Clicking on a window will move the cursor to the screen, the user can then retrieve the mouse back to the tool with TAB + Space
-- Set the curvature of each window as desired
-- Saves your Desktop/Windows settings to a file and allows you to close the application and open it with the exact same setup
-- Easy to select, edit and select each screen
-- Drift correction
-- Works on all Windows hardware, no issues with non-dedicated GPU or older GPU's
+### 🌟 **Features**
+- 🖥️ **Custom Desktop & Window Positioning**
+- 🞡 **Mouse Control with TAB + SPACE**
+- 🎭 **Curvature Adjustment for Windows**
+- 🔄 **Session Persistence** (Save and reload exact setup)
+- 🛠 **Drift Correction & Smooth UI**
+- ✅ **Compatible with all Windows hardware (No GPU limitations)**
 
-# Todo:
-- Allow for customizing the shortcuts
-- Steamdeck Support
+---
 
-# How to Use:
-1. Connect your NReal Air to your Windows computer and set it to "Extended Desktop"
+### 🎩 **Controls**
+- 🔘 `ESCAPE` → Open/Close Menu  
+- 🔘 `SPACE` → Re-align Screen / Close Menu  
+- 🔘 `TAB + SPACE` → Move Cursor & Focus Back to Tool  
+- 🎮 **Drift Correction Slider** (Default: `0.016`)  
 
-2. Double click the NrealAirDesktopTool.exe, that should boot a small window, drag that onto the new extended Desktop
+---
 
-3. Hit Play
+### 💡 **How to Use**
+1. **Connect** your Nreal Air to your Windows PC and enable "Extended Desktop."
+2. **Run** `NrealAirDesktopTool.exe` and move it to the extended desktop.
+3. **Click Play** and wait for loading.
+4. **Press ESC** to access the menu.
+5. **Select Screens & Windows** on the left and right panels.
 
-4. Wait for loading to finish, press Escape to open and close the windows menu
+---
 
-5. Click on the screen you wish to view on the left, all active windows will be displayed on the right and highlighted when in edit mode
+### 🎯 **Fundraising**
+💰 _Want a remote-desktop version for Steamdeck?_  
+- **Support the development** [Buy Me a Coffee ☕](https://www.buymeacoffee.com/adampinto)  
 
-# Controls:
+🔗 **Credits**: Thanks to **MSmithDev** for the Windows API:  
+[GitHub: AirAPI_Windows](https://github.com/MSmithDev/AirAPI_Windows)  
 
-- Press ESCAPE to open and close the menu
-- Press SPACE (When app in focus) to re-allign the screen to compensate the drift or close and re-open the menu
-- Click on a window to move the cursor to that window / position
-- Press TAB + SPACE to move the  cursor and focus back to the tool
-- Drag the "Drift Correction" slider to fix the drift you might be experiencing, for my use "0.016" was a perfect value
-- Click on the Left Windows or Desktops to create a display that can be moved and updated (All window settings will be remembered)
-
-# Fundraising:
-Also, for people wanting something on the Steamdeck, I'd love to make a remote-desktop version that lets you connect in to your main PC but I'd either need to raise enough cash to buy this plugin as I don't have the time to develop such a system (About $250 usd) : Unity Asset Store
-So if you'd like such a tool, I'll be collecting cash here: https://www.buymeacoffee.com/adampinto
-
-Big thanks to MSmithDev for developing the windows API that this tool is using:
-https://github.com/MSmithDev/AirAPI_Windows
+---
